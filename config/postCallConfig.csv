@@ -1,0 +1,8 @@
+attribute,question
+conversationSummary,provide the conversation summary using a maximum of 70 words
+overallSentiment,"extract the overall sentiment from the conversation and provide the answer in the format {value} where value is Positive, Negative, or Neutral"
+entitiesRecognized,"extract the entities recognized, such as company, people, product"
+keyDiscussionTopics,what are the top 5 key discussion topics
+callStatus,"provide the status of the call, in the format {value} where value is Closed, Follow-up Required, Call Dropped"
+agentToImprove,provide 3 things which the agent could have done better to improve the overall customer experience. Limit each item to 10 words.
+callCategory,extract the call category

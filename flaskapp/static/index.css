@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  gap: 20px;
+  text-align: left;
+}
+
+.title{font-size: 20px; text-align: center; font-weight: bold; color:blue; padding-bottom: 7px;}
+
+.sub-title{font-size: 20px; text-align: left; font-weight: bold; color:blue; padding-bottom: 7px;}
+
+.item-container {
+  padding: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+.newLine {
+  white-space: pre-wrap;
+}
